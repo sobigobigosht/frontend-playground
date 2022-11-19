@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			git information page
+		</title>
+	</head>
+	<body>
+		<h1>
+			Git Information Page
+		</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>
+						Git command
+					</th>
+					<th>
+						Description
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						git init
+					</td>
+					<td>
+						creates a local git repository
+					</td>
+				</tr>
+				<tr>
+					<td>
+						git remote add origin ssh_url/https_url
+					</td>
+					<td>
+						connects local repository with remote repository using either ssh_url or https_url provided in the command. Both urls can be found in remote repository provider eg. Github, Bitbucket, GitLab, etc.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						git status
+					</td>
+					<td>
+						gives information about which files are tracked by remote repository and untracked files
+					</td>
+				</tr>
+				<tr>
+					<td>
+						git add .
+					</td>
+					<td>
+						tracks all new files/folders that are not yet tracked by remote
+					</td>
+				</tr>
+				<tr>
+					<td>
+						git add file_name
+					</td>
+					<td>
+						tracks the mentioned file_name by remote
+					</td>
+				</tr>
+				<tr>
+					<td>
+						git commit -m "message"
+					</td>
+					<td>
+						message gets linked to tracked file(s) and gets commited 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						git push
+					</td>
+					<td>
+						pushes the commit to cloud along with the files linked with that commit
+					</td>
+				</tr>
+			</tbody>
+			
+		</table>
+
+	</body>
+</html>
