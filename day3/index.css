@@ -1,0 +1,20 @@
+h1 {
+	margin: 16px auto;
+	width: fit-content;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+thead {
+	border-bottom: 1px solid;
+}
+
+th:first-child, td:first-child {
+	border-right: 1px solid;
+}
+
+td {
+	padding: 8px;
+}
