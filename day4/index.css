@@ -1,0 +1,32 @@
+:root {
+	--primary_color: #e7f4e9;
+	--primary_light_color: #ffffff;
+	--primary_dark_color: #b5c1b7;
+}
+
+.zs_button {
+	width: fit-content; 
+	padding: 12px;
+	border: none;
+	transition: 1s;
+}
+
+.zs_button:hover {
+	cursor: pointer;
+}
+
+.zs_button__primary {
+	background-color: var(--primary_color);
+}
+
+.zs_button__primary:hover {
+	background-color: var(--primary_dark_color);
+}
+
+.zs_button__secondary {
+	background-color: var(--primary_dark_color);
+}
+
+.zs_button__secondary:hover {
+	background-color: var(--primary_color);
+}
