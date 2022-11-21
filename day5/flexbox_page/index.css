@@ -1,0 +1,52 @@
+:root {
+	--primary_color: #e7f4e9;
+	--primary_light_color: #ffffff;
+	--primary_dark_color: #b5c1b7;
+}
+
+body {
+	margin: 0;
+}
+
+.fb_navigation {
+	display: flex;
+	justify-content: center;
+	background-color: var(--primary_dark_color);
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.fb_list {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.fb_list__item {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.fb_section__articles {
+	display: flex;
+	height: 100vh;
+}
+
+.fb_articles__container {
+	width: 80%;
+	margin-left: 8px;
+	margin-right: 8px;
+	background-color: var(--primary_light_color);
+}
+
+.fb_section__aside {
+	background-color: var(--primary_color);
+	width: 20%;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: var(--primary_dark_color);
+}
