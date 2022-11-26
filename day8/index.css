@@ -1,0 +1,16 @@
+.grid_numbers {
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+}
+
+p {
+	margin: 0;
+	padding: 16px;
+	border: 1px solid;
+	text-align: center;
+}
+
+.grid_p__color {
+	background-color: skyblue;
+}
