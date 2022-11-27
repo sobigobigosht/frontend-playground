@@ -1,0 +1,38 @@
+h1 {
+	text-align: center;
+}
+
+address {
+	text-align: center;
+}
+
+p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+h2 {
+	margin-left: 64px;
+	margin-right: 64px;
+	border-bottom: 2px solid;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-left: 128px;
+	margin-right: 128px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.cv_education__years, .cv_experience__years, .cv_other__tag {
+	min-width: fit-content;
+}
+
+.cv_education__container, .cv_experience__container, .cv_other__container {
+	display: flex;
+	gap: 16px;
+	margin-bottom: 16px;
+}
