@@ -15,6 +15,7 @@ h2 {
 	margin-left: 64px;
 	margin-right: 64px;
 	border-bottom: 2px solid;
+	color: #546e7a;
 }
 
 ul {
@@ -27,12 +28,23 @@ ul {
 	margin-bottom: 40px;
 }
 
-.cv_education__years, .cv_experience__years, .cv_other__tag {
+.cv_education__years, .cv_experience__years, .cv_other__tag, .cv_reference__tag {
 	min-width: fit-content;
 }
 
-.cv_education__container, .cv_experience__container, .cv_other__container {
+.cv_other__tag, .cv_reference__tag {
+	text-align: right;
+	width: 136px;
+
+}
+
+.cv_education__container, .cv_experience__container, .cv_other__container, .cv_reference__container {
 	display: flex;
 	gap: 16px;
 	margin-bottom: 16px;
 }
+
+.cv_data__paragraph, .cv_reference__paragraph {
+	margin: 0;
+}
+
